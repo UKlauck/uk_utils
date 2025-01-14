@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f4c80c1-eaf0-4e72-8eac-5c7bb4f74852" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uk_utils/cu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uk_utils/tf_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/cu_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/cu_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/imfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/imfiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/imshow.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/imshow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/ipy_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/ipy_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/ml_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/ml_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uk_utils-0.1.1-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uk_utils-0.1.1-py3.8.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uk_utils-0.1.1.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py.COPY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk_utils.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk_utils.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk_utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk_utils/cu_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/cu_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk_utils/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk_utils/imshow.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/imshow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk_utils/ipy_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/ipy_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk_utils/ml_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/ml_plot.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="955f89a5-a963-4985-8f6f-8fad23f98a98" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="1jSBWoIVMVyLpgH2hVT9ady1OZd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ulrichklauck/Projekte/Pythonlibs/uk_utils&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/uk_utils" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$USER_HOME$/Vorlesungen/Eigene Unterlagen/ML&amp;DL/Preparation/chap03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/uk_utils" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="mlp_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="uk_utils" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Vorlesungen/Eigene Unterlagen/ML&amp;DL/Preparation/chap03" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Vorlesungen/Eigene Unterlagen/ML&amp;DL/Preparation/chap03/mlp_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mlp_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f4c80c1-eaf0-4e72-8eac-5c7bb4f74852" name="Default Changelist" comment="" />
+      <created>1603787646997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603787646997</updated>
+      <workItem from="1603787648056" duration="11549000" />
+      <workItem from="1603960085460" duration="921000" />
+      <workItem from="1606489739987" duration="620000" />
+      <workItem from="1606763675504" duration="929000" />
+      <workItem from="1608741113005" duration="598000" />
+      <workItem from="1611514592112" duration="886000" />
+      <workItem from="1613837734535" duration="2779000" />
+      <workItem from="1614582213006" duration="767000" />
+      <workItem from="1615993250233" duration="470000" />
+      <workItem from="1618307365357" duration="786000" />
+      <workItem from="1618998064654" duration="1770000" />
+      <workItem from="1619422089446" duration="1954000" />
+      <workItem from="1620027968356" duration="4695000" />
+      <workItem from="1625063389777" duration="271000" />
+      <workItem from="1625069677033" duration="604000" />
+      <workItem from="1626178119731" duration="365000" />
+      <workItem from="1626266399361" duration="471000" />
+      <workItem from="1626964791027" duration="171000" />
+      <workItem from="1630315674108" duration="666000" />
+      <workItem from="1633787337209" duration="4000" />
+      <workItem from="1635717755967" duration="863000" />
+      <workItem from="1635800050240" duration="363000" />
+      <workItem from="1636619893586" duration="376000" />
+      <workItem from="1636965377293" duration="4447000" />
+      <workItem from="1637672206481" duration="1270000" />
+      <workItem from="1637912016629" duration="4783000" />
+      <workItem from="1639124334159" duration="2401000" />
+      <workItem from="1641997079401" duration="1277000" />
+      <workItem from="1642446465697" duration="577000" />
+      <workItem from="1642958338969" duration="659000" />
+      <workItem from="1643557571891" duration="1020000" />
+      <workItem from="1644566598200" duration="925000" />
+      <workItem from="1645689654810" duration="6757000" />
+      <workItem from="1646233366967" duration="73000" />
+      <workItem from="1646238691241" duration="3163000" />
+      <workItem from="1646812270013" duration="1328000" />
+      <workItem from="1648667442605" duration="2339000" />
+      <workItem from="1652785295267" duration="11259000" />
+      <workItem from="1653550143868" duration="3975000" />
+      <workItem from="1655627449519" duration="33205000" />
+      <workItem from="1655887852047" duration="7207000" />
+      <workItem from="1657569328005" duration="1266000" />
+      <workItem from="1657609219939" duration="727000" />
+      <workItem from="1658771809253" duration="4857000" />
+      <workItem from="1661351902564" duration="8502000" />
+      <workItem from="1664375205974" duration="766000" />
+      <workItem from="1664699117260" duration="2942000" />
+      <workItem from="1665242715733" duration="4053000" />
+      <workItem from="1665739875476" duration="8554000" />
+      <workItem from="1667897545696" duration="5410000" />
+      <workItem from="1669111873019" duration="13000" />
+      <workItem from="1670164593164" duration="1699000" />
+      <workItem from="1670254343351" duration="6606000" />
+      <workItem from="1672582231346" duration="6778000" />
+      <workItem from="1673804310755" duration="681000" />
+      <workItem from="1674144420167" duration="2231000" />
+      <workItem from="1679234410038" duration="2793000" />
+      <workItem from="1687772386327" duration="2510000" />
+      <workItem from="1693203838278" duration="10121000" />
+      <workItem from="1695459470514" duration="4417000" />
+      <workItem from="1695627326358" duration="607000" />
+      <workItem from="1697381674130" duration="2847000" />
+      <workItem from="1699341886749" duration="776000" />
+      <workItem from="1710439517192" duration="1164000" />
+      <workItem from="1712303110980" duration="2763000" />
+      <workItem from="1712825942711" duration="1537000" />
+      <workItem from="1715062013572" duration="617000" />
+      <workItem from="1736778987774" duration="832000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="c2b98872-12d2-4dbb-bfe1-b7949e649e5c" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="git init" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="c2b98872-12d2-4dbb-bfe1-b7949e649e5c">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/uk_utils$mlp_test.coverage" NAME="mlp_test Coverage Results" MODIFIED="1639128771840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Vorlesungen/Eigene Unterlagen/ML&amp;DL/Preparation/chap03" />
+  </component>
+</project>
