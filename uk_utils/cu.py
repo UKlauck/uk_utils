@@ -289,7 +289,8 @@ def copy_chapter(from_course=None, to_course=None,
                 #data = comm.communicate()
                 # print(data)
             else:
-                logger.warning(f'{dir_entry.name} is a directory. No copy performed')
+                if dir_entry.name.find('.ipynb_checkpoints') < 0:    # No warnings for .ipynb_checkpoints directories
+                    logger.warning(f'{dir_entry.name} is a directory. No copy performed')
 
         # ... and rename the modules
         os.path.os.chdir(target)
@@ -409,7 +410,9 @@ def copy_chapter(from_course=None, to_course=None,
                     os.path.os.system(shell_cmd)
 
         else:
-            logger.warning(f'{dir_entry.name} is a directory. No copy performed')
+            if dir_entry.name.find('.ipynb_checkpoints') < 0:    # No warnings for .ipynb_checkpoints directories
+                logger.warning(f'{dir_entry.name} is a directory. No copy performed')
+
 
     # Copy all non chapter-based directories
     for subdir in ['Assignments']:
@@ -417,10 +420,15 @@ def copy_chapter(from_course=None, to_course=None,
         target = os.sep.join([to_home, subdir])
 
         try:
-            for f in os.listdir(source):
-                shell_cmd = f'cp "{os.sep.join([source, f])}" "{target}"'
-                logger.debug(shell_cmd)
-                os.path.os.system(shell_cmd)
+            for dir_entry in os.scandir(source):
+                if dir_entry.is_file():
+                    f = dir_entry.name
+                    shell_cmd = f'cp "{os.sep.join([source, f])}" "{target}"'
+                    logger.debug(shell_cmd)
+                    os.path.os.system(shell_cmd)
+                else:
+                    if dir_entry.name.find('.ipynb_checkpoints') < 0:    # No warnings for .ipynb_checkpoints directories
+                        logger.warning(f'{dir_entry.name} is a directory. No copy performed')
         except FileNotFoundError:
             logger.warning(f'No files copied from dir {subdir}')
 
@@ -437,6 +445,7 @@ class CourseGenerator:
             'source_course': 'ML',
             'target_course': None,
             'prefix': None,
+            'defines': None,
             'header_B': 'Header_B',
             'header_H': 'Header_H',
             'language': 'english',
@@ -454,7 +463,8 @@ class CourseGenerator:
                 'Outline': ('00', ('ML_Outline',)),
                 'OutlineBoschLT': ('00', ('ML_Outline_Bosch_Longterm',)),
                 'OutlineBoschDS': ('00', ('ML_Outline_Bosch_DS',)),
-                'OutlineGSOAI': ('00', ('ML_Outline_GSOAI',)),
+                'OutlineGCAI': ('00', ('ML_Outline_GCAI',)),
+                'OutlineGCML': ('00', ('ML_Outline_GCML',)),
                 'OutlineHSAA': ('00', ('ML_Outline_HSAA',)),
 
                 'Intro': ('01', ('ML_Intro',)),
@@ -542,6 +552,7 @@ class CourseGenerator:
         title = self.getParameter('title', ' ')
         subtitle = self.getParameter('subtitle', ' ')
         language = self.getParameter('language', 'english')
+        defines = self.getParameter('defines', None)
 
         filename = f"{self.outputPath()}/Slides/{self.getParameter('prefix')}_{chapter}_Beamer.tex"
         self.logger.debug(f'Creating {filename}')
@@ -559,6 +570,13 @@ class CourseGenerator:
 \edef\input@path{{../../ML/Slides/}\input@path}% prepend
 \makeatother''')
             outfile.write('\n\n')
+
+            # Optional definition
+            if defines is not None:
+                for d in defines:
+                    outfile.write(r'\edef' + f'\\{d}' +'{}')
+                    outfile.write('\n')
+                outfile.write('\n')
 
             # title and subtitle
             outfile.write(r'\title{' + title + '}\n')
@@ -630,7 +648,8 @@ class CourseGenerator:
                     self.logger.debug(shell_cmd)
                     os.path.os.system(shell_cmd)
                 else:
-                    self.logger.warning(f'{dir_entry.name} is a directory. No copy performed')
+                    if dir_entry.name.find('.ipynb_checkpoints') < 0:    # No warnings for .ipynb_checkpoints directories
+                        self.logger.warning(f'{dir_entry.name} is a directory. No copy performed')
 
         else:
             self.logger.warning(f'No notebooks available in {inPath}')

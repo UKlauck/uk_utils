@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f4c80c1-eaf0-4e72-8eac-5c7bb4f74852" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uk_utils/cu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uk_utils/tf_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/cu_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/cu_plot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/imfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/imfiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/imshow.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/imshow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/ipy_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/ipy_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/uk_utils/ml_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/uk_utils/ml_plot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uk_utils-0.1.1-py2.py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uk_utils-0.1.1-py3.8.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uk_utils-0.1.1.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py.COPY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk_utils.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk_utils.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils.egg-info/SOURCES.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uk_utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk_utils/cu_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/cu_plot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk_utils/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk_utils/imshow.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/imshow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk_utils/ipy_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/ipy_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uk_utils/ml_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/ml_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk_utils/cu.py" beforeDir="false" afterPath="$PROJECT_DIR$/uk_utils/cu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,22 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ulrichklauck/Projekte/Pythonlibs/uk_utils&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/ulrichklauck/Projekte/Pythonlibs/uk_utils",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/uk_utils" />
@@ -201,6 +182,7 @@
       <workItem from="1712825942711" duration="1537000" />
       <workItem from="1715062013572" duration="617000" />
       <workItem from="1736778987774" duration="832000" />
+      <workItem from="1738224992648" duration="614000" />
     </task>
     <servers />
   </component>

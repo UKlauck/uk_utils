@@ -1,4 +1,4 @@
-__version__ = '0.1.51'
+__version__ = '0.1.54'
 
 from .imshow import *
 from .imfiles import *

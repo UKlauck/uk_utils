@@ -1,6 +1,6 @@
-# A few sigle files and directories
+# A few single files and directories
 .DS_Store
-
+.idea
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
