@@ -99,14 +99,14 @@ def plot_decision_regions(X=None, y=None,
         Z = class_encoder.transform(Z)
         Z = Z.reshape(xx1.shape).astype(np.int32)  # .round()
 
-        plt.grid(False)
-        plt.pcolormesh(xx1, xx2, Z,
+        ax.grid(False)
+        ax.pcolormesh(xx1, xx2, Z,
                        norm=BoundaryNorm(boundaries=bounds, ncolors=len(class_names)),
                        alpha=0.3,
                        cmap=cmap1)
 
-        plt.xlim(xx1.min(), xx1.max())
-        plt.ylim(xx2.min(), xx2.max())
+        ax.set_xlim(xx1.min(), xx1.max())
+        ax.set_ylim(xx2.min(), xx2.max())
     else:
         ax.set_xlim(x1_min, x1_max)
         ax.set_ylim(x2_min, x2_max)
