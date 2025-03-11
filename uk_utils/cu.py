@@ -497,7 +497,7 @@ class CourseGenerator:
                                         'DA_TSLibs')),
                 'NN': ('15', ('ML_NN_Perceptron', 'ML_NN_Activation', 'ML_NN_Loss',
                               'ML_NN_PerceptronRegression', 'ML_NN_PerceptronClassification',
-                              'ML_NN_Learning', 'ML_MLP', 'ML_NN_TimeSeries')),
+                              'ML_NN_Learning', 'ML_MLP', 'ML_MLP_Learning')),
                 'NNOptimization': ('15a', ('ML_NN_Optimization',)),
 
                 'DLIntro': ('21', ('ML_DLIntro',)),
