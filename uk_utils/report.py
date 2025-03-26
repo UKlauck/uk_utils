@@ -42,7 +42,7 @@ def print_model_summary(model):
 
     for l in model.layers:
         l_type = l.__class__.__name__
-        l_shape = str(l.output_shape)
+        l_shape = str(l.output.shape)
         l_size = layer_size(l)
         l_params = no_params(l)
         total_params += l_params
